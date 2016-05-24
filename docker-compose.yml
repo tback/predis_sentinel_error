@@ -1,0 +1,19 @@
+# use from project
+version: '2'
+services:
+  php:
+    build: .
+    command: php /usr/src/myapp/index.php
+    links:
+    - sentinel
+    - redis
+
+  sentinel:
+    image: redis:2.8
+    links:
+    - redis
+    command: redis-sentinel /usr/local/etc/redis/sentinel.conf
+    volumes:
+    - ./sentinel:/usr/local/etc/redis
+  redis:
+    image: redis:2.8
