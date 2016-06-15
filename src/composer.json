@@ -1,13 +1,7 @@
 {
     "name": "tback/use_predis",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nrk/predis"
-        }
-    ],
     "require": {
-        "predis/predis": "dev-master"
+        "predis/predis": "1.1.*"
     },
     "authors": [
         {

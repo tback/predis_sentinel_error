@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3768cbaae44bece2d482544f71853a57",
-    "content-hash": "576689ca591adc27d5930680bd85f875",
+    "hash": "fe1d18619445f899e01d07b11ce3fd64",
+    "content-hash": "a0d9a3fca9c144c9749098d7702364cf",
     "packages": [
         {
             "name": "predis/predis",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "7b3f6e1db556a8309eb4ef372b55667fc97419d2"
+                "reference": "0e17edbefb50c6cbd1acc4a6f6ef06399deb1af2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/7b3f6e1db556a8309eb4ef372b55667fc97419d2",
-                "reference": "7b3f6e1db556a8309eb4ef372b55667fc97419d2",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/0e17edbefb50c6cbd1acc4a6f6ef06399deb1af2",
+                "reference": "0e17edbefb50c6cbd1acc4a6f6ef06399deb1af2",
                 "shasum": ""
             },
             "require": {
@@ -32,16 +32,12 @@
                 "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Predis\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -59,19 +55,13 @@
                 "predis",
                 "redis"
             ],
-            "support": {
-                "issues": "https://github.com/nrk/predis/issues",
-                "source": "https://github.com/nrk/predis/tree/master"
-            },
-            "time": "2016-05-24 13:11:49"
+            "time": "2016-06-01 22:06:21"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "predis/predis": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
